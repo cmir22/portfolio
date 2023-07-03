@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import PageContainer from "./components/PageContainer/PageContainer";
 import Home from "./pages/Home";
 
