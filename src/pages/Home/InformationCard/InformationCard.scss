@@ -12,6 +12,9 @@
   &__container {
     height: 100%;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     // background-color: aquamarine;
   }
 
@@ -19,12 +22,11 @@
     height: 60px;
     width: 100%;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     // background-color: antiquewhite;
 
     h1 {
       color: white;
-      padding-bottom: 30px;
     }
   }
 
@@ -42,7 +44,7 @@
     width: 100%;
 
     img {
-      width: 270px;
+      width: 280px;
       height: 200px;
       object-fit: cover;
       border-radius: $border_x3;
@@ -75,6 +77,31 @@
 
     p {
       color: white;
+    }
+  }
+
+  &__footer_container {
+    width: 100%;
+    height: 120px;
+    // background-color: aliceblue;
+    // padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__footer {
+    width: 100%;
+    height: 100%;
+    // background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: $medium_gap;
+
+    img {
+      width: 50px;
+      height: 50px;
     }
   }
 }
