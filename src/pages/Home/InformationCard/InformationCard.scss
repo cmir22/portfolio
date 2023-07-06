@@ -1,41 +1,71 @@
 @import "../../../assets/Styles/Sizes.scss";
 
 .information_card {
-  width: 90%;
+  width: 85%;
   height: 90%;
-  background-color: #202328;
-  border: 2px solid #575757;
+  //   background-color: #202328;
+  border: 1px solid #575757;
   border-radius: $border_x3;
-  padding: 30px;
+  padding: 35px;
   box-sizing: border-box;
 
   &__container {
     height: 100%;
     width: 100%;
-    background-color: aquamarine;
+    // background-color: aquamarine;
   }
 
   &__header {
-    height: 10%;
+    height: 80px;
     width: 100%;
-    background-color: antiquewhite;
+    // background-color: antiquewhite;
     display: flex;
     align-items: flex-end;
     h1 {
-      margin-left: 10%;
+      color: white;
+      padding-bottom: 30px;
     }
   }
 
   &__body {
     height: 70%;
     width: 100%;
-    background-color: cadetblue;
+    // background-color: cadetblue;
 
     img {
-      width: 300px;
+      width: 250px;
       height: 200px;
       object-fit: cover;
       border-radius: $border_x3;
+    }
+  }
+
+  &__description {
+    height: 130px;
+    width: 100%;
+    // background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: $small_gap;
+  }
+
+  &__text_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: $small_gap;
+
+    img {
+      margin: 0;
+      padding: 0;
+      width: 30px;
+      height: 30px;
+      object-fit: fill;
+    }
+
+    p {
+      color: white;
     }
   }
 }
