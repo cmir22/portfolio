@@ -1,6 +1,7 @@
 import "./InformationCard.scss";
 import MarkIcon from "../../../assets/Icons/mark.svg";
 import SchoolIcon from "../../../assets/Icons/school.svg";
+import ProfileImage from "../../../../public/profile_image.webp";
 
 const InformationCard = () => {
   return (
@@ -11,8 +12,11 @@ const InformationCard = () => {
             <h1>Cruz</h1>
           </div>
           <div className="information_card__body">
-            <img src="../../../../public/profile_image.webp" />
-
+            {/* Image */}
+            <div className="information_card__body_image">
+              <img src={ProfileImage} />
+            </div>
+            {/* Description text */}
             <div className="information_card__description">
               <div className="information_card__text_icon">
                 <img src={MarkIcon} />

@@ -1,4 +1,4 @@
-@import "./assets/Styles/Colors.scss";
+@use "./assets/Styles/_colors.scss" as *;
 
 .sections {
   width: 100%;
