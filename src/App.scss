@@ -1,3 +1,5 @@
+@import "./assets/Styles/Colors.scss";
+
 .sections {
   width: 100%;
   height: 100vh;
@@ -6,12 +8,15 @@
   &__left {
     width: 40%;
     height: 100%;
-    background-color: green;
+    background-color: $primary_gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   &__right {
     width: 60%;
     height: 100%;
-    background-color: orange;
+    background-color: $primary_gray;
   }
 }
