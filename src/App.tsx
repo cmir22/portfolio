@@ -1,11 +1,15 @@
 import "./App.scss";
-import PageContainer from "./components/PageContainer/PageContainer";
-import Home from "./pages/Home";
+import InformationCard from "./pages/Home/InformationCard/InformationCard";
 
 const App = () => {
   return (
     <>
-      <PageContainer children={<Home />} />
+      <div className="sections">
+        <div className="sections__left">
+          <InformationCard />
+        </div>
+        <div className="sections__right"></div>
+      </div>
     </>
   );
 };
