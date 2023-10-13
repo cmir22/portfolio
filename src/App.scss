@@ -6,8 +6,10 @@
   display: flex;
 
   &__left {
-    width: 40%;
+    width: 30%;
     height: 100%;
+    min-width: 550px;
+    padding: 80px;
     background-color: $primary_gray;
     display: flex;
     justify-content: center;

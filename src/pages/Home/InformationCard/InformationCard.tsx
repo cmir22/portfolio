@@ -1,42 +1,62 @@
 import "./InformationCard.scss";
 import MarkIcon from "../../../assets/Icons/mark.svg";
 import SchoolIcon from "../../../assets/Icons/school.svg";
-import ProfileImage from "../../../../public/profile_image.webp";
-import GihubIcon from "../../../../public/github_icon.svg";
-import LinkedInIcon from "../../../../public/linkedin_icon.svg";
-import GmailIcon from "../../../../public/gmail_icon.svg";
+import ProfileImage from "../../../assets/images/profile_image.webp";
+import GihubIcon from "../../../assets/images/github_icon.svg";
+import LinkedInIcon from "../../../assets/images/linkedin_icon.svg";
+import GmailIcon from "../../../assets/images/gmail_icon.svg";
 
 const InformationCard = () => {
   return (
     <>
-      <div className="information_card">
-        <div className="information_card__container">
-          <div className="information_card__header">
-            <h1>Cruz</h1>
+      <div className="informationCardContainer">
+        <div className="headerSection">
+          <div className="nameContainer">
+            <h1>Cruz Ibarra</h1>
           </div>
-          <div className="information_card__body">
-            {/* Image */}
-            <div className="information_card__body_image">
-              <img src={ProfileImage} />
+        </div>
+        <div className="middleSection">
+          <div className="middleContainer">
+            <div className="imageContainer">
+              <img src={ProfileImage}></img>
             </div>
-            {/* Description text */}
-            <div className="information_card__description">
-              <div className="information_card__text_icon">
+
+            <div className="middleContainerText">
+              <div className="descriptionContainer">
                 <img src={MarkIcon} />
                 <p>San Diego CA.</p>
               </div>
-              <div className="information_card__text_icon">
+              <div className="descriptionContainer">
                 <img src={SchoolIcon} />
-                <p>Computer Systems Engineer.</p>
+                <p>Computer Systems Engineer</p>
               </div>
             </div>
           </div>
-          <div className="information_card__footer_container">
-            <div className="information_card__footer">
-              <img src={GihubIcon} />
-              <img src={LinkedInIcon} />
-              <img src={GmailIcon} />
-            </div>
+        </div>
+
+        <div className="bottomSection">
+          <div className="iconsContainer">
+            <a
+              href="https://github.com/cmir22"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={GihubIcon} alt="GitHub" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/cruz-ibarra/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={LinkedInIcon} alt="LinkedIn" />
+            </a>
+            <a
+              href="mailto:isc.cruzibarra@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={GmailIcon} alt="Gmail" />
+            </a>
           </div>
         </div>
       </div>
