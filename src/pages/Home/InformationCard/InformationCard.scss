@@ -28,7 +28,7 @@ $paddings: 45px;
 }
 
 .middleSection {
-  flex: 3;
+  flex: 4;
 
   .middleContainer {
     padding-left: $paddings;
@@ -47,30 +47,29 @@ $paddings: 45px;
     }
 
     .middleContainerText {
-      padding-top: 10px;
+      margin-top: 36px;
       height: 100%;
       width: 100%;
-      // background-color: orange;
+
+      .descriptionContainer {
+        width: 100%;
+        height: 100%;
+        padding: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 18px;
+
+        p {
+          color: white;
+        }
+      }
     }
   }
 }
 
-.descriptionContainer {
-  width: 100%;
-  height: 100%;
-  padding: 14px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 18px;
-
-  p {
-    color: white;
-  }
-}
-
 .bottomSection {
-  flex: 2;
+  flex: 1;
 
   .iconsContainer {
     width: 100%;
