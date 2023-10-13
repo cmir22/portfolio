@@ -28,7 +28,7 @@ const InformationCard = () => {
               </div>
               <div className="descriptionContainer">
                 <img src={SchoolIcon} />
-                <p>Computer Systems Engineer</p>
+                <p>Software Engineer</p>
               </div>
             </div>
           </div>

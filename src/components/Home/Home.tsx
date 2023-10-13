@@ -18,7 +18,7 @@ const Home = () => {
               explore my work and get in touch if you'd like to collaborate or
               learn more about my skills and experience.
             </p>
-
+            &nbsp;
             <p>
               <strong>Let's create something amazing together!</strong>
             </p>

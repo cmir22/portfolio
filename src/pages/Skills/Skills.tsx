@@ -11,59 +11,72 @@ const Skills = () => {
 
         <div className="skillsCardContainer">
           <SkillCard
-            skillTitle="Front-End"
-            frontEndSkills={frontEndSkills}
-          ></SkillCard>
-          <SkillCard
-            skillTitle="Back-End"
-            frontEndSkills={backEndSkills}
-          ></SkillCard>
-          <SkillCard
             skillTitle="Languages"
             frontEndSkills={languagesSkills}
           ></SkillCard>
-          <SkillCard skillTitle="More" frontEndSkills={moreSkills}></SkillCard>
+          <SkillCard
+            skillTitle="Frameworks"
+            frontEndSkills={frameworksSkills}
+          ></SkillCard>
+          <SkillCard
+            skillTitle="Cloud Computing"
+            frontEndSkills={cloudComputingSkills}
+          ></SkillCard>
+          <SkillCard
+            skillTitle="Test"
+            frontEndSkills={testingSkills}
+          ></SkillCard>
+          <SkillCard
+            skillTitle="Libraries"
+            frontEndSkills={librariesSkills}
+          ></SkillCard>
+          <SkillCard
+            skillTitle="Project Management"
+            frontEndSkills={proyectManagementSkills}
+          ></SkillCard>
+          <SkillCard
+            skillTitle="Version Control"
+            frontEndSkills={versionControlSkills}
+          ></SkillCard>
+          <SkillCard
+            skillTitle="Tools"
+            frontEndSkills={toolsSkills}
+          ></SkillCard>
         </div>
       </div>
     </>
   );
 };
 
-const frontEndSkills = [
-  "Angular",
-  "React",
-  "Google Maps API",
-  "Prettier",
-  "ESlint",
-  "Tailwind",
-  "Bootstrap",
-  "Axios",
-];
-
-const backEndSkills = [
-  "NodeJS (ExpressJS)",
-  "FastAPI (Python)",
-  "AWS EC2, S3",
-  "MongoDB and Pymongo, Mongoose",
-  "Firebase",
-  "SQL, SSMS",
-  "JWT",
-  "Docker",
-];
-
 const languagesSkills = [
-  "Javascript, Typescript",
-  "Python",
-  "SQL, SSMS",
-  "HTML, CSS / SCSS",
+  "Typescript",
+  "Javascript",
+  "Python (Mid)",
+  "MongoDB",
+  "MySQL",
+  "SSML",
+  "HTML / CSS / SCSS",
 ];
 
-const moreSkills = [
-  "Jira, Azure DevOps",
+const frameworksSkills = ["Angular", "FastApi (Python)", "ExpressJS"];
+
+const cloudComputingSkills = ["AWS EC2, S3", "Firebase", "Docker (Basics)"];
+
+const testingSkills = ["Karma", "Jasmine", "Jest"];
+
+const librariesSkills = [
+  "React JS",
+  "Pymongo",
+  "Mongoose",
+  "Mysql2",
+  "Google Maps API",
   "JWT",
-  "Prettier, ESlint",
-  "AWS EC2, S3",
-  "Git (Github, Bitbucket, Azure DevOps)",
 ];
+
+const proyectManagementSkills = ["Jira", "Azure DevOps"];
+
+const versionControlSkills = ["Git (Github, Bitbucket)"];
+
+const toolsSkills = ["Figma", "AdobeXD", "Prettier", "ESLint"];
 
 export default Skills;
