@@ -31,3 +31,18 @@
     font-size: 70px;
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .aboutMeTitle {
+    padding-top: 40px;
+    padding-left: 28px;
+
+    h1 {
+      font-size: 40px;
+    }
+  }
+
+  .aboutMeCardContainer {
+    padding: 28px;
+  }
+}

@@ -7,9 +7,6 @@
   width: 100%;
   height: auto;
   padding: 80px;
-  // display: flex;
-  // flex-direction: column;
-  // gap: 60px;
 
   p {
     color: white;
@@ -17,13 +14,6 @@
     font-weight: 300;
   }
 }
-
-// .roadmapLine {
-//   height: 100vh;
-//   width: 5px;
-//   border-radius: 8px;
-//   background-color: white;
-// }
 
 .experienceTitle {
   width: 100%;
@@ -69,4 +59,19 @@
   flex-direction: column;
   // gap: 10px;
   max-width: 900px;
+}
+
+@media screen and (max-width: 1200px) {
+  .experienceTitle {
+    padding-top: 0px;
+    padding-left: 20px;
+
+    h1 {
+      font-size: 40px;
+    }
+  }
+
+  .experienceCardContainer {
+    padding: 28px;
+  }
 }

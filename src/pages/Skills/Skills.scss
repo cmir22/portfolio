@@ -16,12 +16,28 @@
   width: 100%;
   height: auto;
   padding-top: 160px;
-  padding-left: 80px;
   box-sizing: border-box;
 
   h1 {
+    padding-left: 80px;
     font-weight: 500;
     color: #f2e7d5;
     font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .skillsTitle {
+    margin-top: 140px;
+    padding-top: 0px;
+
+    h1 {
+      font-size: 40px;
+      padding: 20px;
+    }
+  }
+
+  .skillsCardContainer {
+    padding: 0px;
   }
 }
