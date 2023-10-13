@@ -10,15 +10,15 @@
     height: 100%;
     min-width: 550px;
     padding: 80px;
-    background-color: $primary_gray;
+    // background-color: $primary_gray;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
   &__right {
-    width: 60%;
+    width: 70%;
     height: 100%;
-    background-color: $primary_gray;
+    // background-color: $primary_gray;
   }
 }
