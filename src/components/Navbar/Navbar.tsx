@@ -1,5 +1,5 @@
 import "./Navbar.scss";
-import BurgerIcon from "../../assets/Icons/burger.svg";
+// import BurgerIcon from "../../assets/Icons/burger.svg";
 
 const NavBar = () => {
   return (
@@ -7,9 +7,9 @@ const NavBar = () => {
       <nav>
         <div className="navbarContainer">
           <div className="iconContainer">
-            <div className="burgerIconContainer">
+            {/* <div className="burgerIconContainer">
               <img src={BurgerIcon} />
-            </div>
+            </div> */}
           </div>
         </div>
       </nav>
