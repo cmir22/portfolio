@@ -20,6 +20,7 @@ const Skills = () => {
             skillTitle="Cloud Computing"
             frontEndSkills={cloudComputingSkills}
           />
+          <SkillCard skillTitle="Databases" frontEndSkills={databasesSkills} />
           <SkillCard skillTitle="Test" frontEndSkills={testingSkills} />
           <SkillCard skillTitle="Libraries" frontEndSkills={librariesSkills} />
           <SkillCard
@@ -40,18 +41,23 @@ const Skills = () => {
 const languagesSkills = [
   "Typescript",
   "Javascript",
-  "Python (Mid)",
-  "MongoDB",
-  "MySQL",
-  "SSML",
+  "Python",
   "HTML / CSS / SCSS",
 ];
 
-const frameworksSkills = ["Angular", "FastApi (Python)", "ExpressJS"];
+const frameworksSkills = [
+  "Angular",
+  "FastApi",
+  "ExpressJS",
+  "Tailwind",
+  "Nextjs [Learning]",
+];
 
-const cloudComputingSkills = ["AWS EC2, S3", "Firebase", "Docker (Basics)"];
+const cloudComputingSkills = ["AWS: EC2, S3, SES", "PM2", "Docker (Basics)"];
 
-const testingSkills = ["Karma", "Jasmine", "Jest"];
+const testingSkills = ["Karma", "Jest"];
+
+const databasesSkills = ["Mysql", "SSQL", "Mongodb", "Firebase"];
 
 const librariesSkills = [
   "React JS",
