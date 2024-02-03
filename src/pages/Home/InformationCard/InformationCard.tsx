@@ -13,7 +13,7 @@ const InformationCard = () => {
   };
 
   return (
-    <div className="w-full h-full p-4 md:p-8 flex flex-col items-center">
+    <div className="w-full h-full p-4 md:p-8 flex flex-col items-center lg:justify-start md:justify-start justify-center">
       <div className="flex justify-center items-center">
         <img src={ProfileImage} className="w-32 h-32" alt="Profile" />
       </div>
