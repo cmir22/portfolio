@@ -1,5 +1,5 @@
 // import "./Navbar.scss";
-import BurgerIcon from "../../assets/Icons/burger.svg";
+// import BurgerIcon from "../../assets/Icons/burger.svg";
 
 type ClickMenuItemProps = {
   title: string;
