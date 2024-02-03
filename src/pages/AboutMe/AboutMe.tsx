@@ -3,7 +3,7 @@ const AboutMe = () => {
     <div className="w-full h-auto">
       <div className="w-full h-auto pt-16 box-border">
         <div className="w-full p-4 bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400">
-          <h1 className="font-semibold text-5xl text-black">About me</h1>
+          <h1 className="font-semibold text-3xl text-black">About me</h1>
         </div>
       </div>
 

@@ -13,7 +13,7 @@ const InformationCard = () => {
   };
 
   return (
-    <div className="w-full h-full p-4 md:p-8 flex flex-col items-center lg:justify-start md:justify-start justify-center">
+    <div className="flex flex-col ">
       <div className="flex justify-center items-center">
         <img src={ProfileImage} className="w-32 h-32" alt="Profile" />
       </div>
@@ -23,24 +23,24 @@ const InformationCard = () => {
         </p>
       </div>
       <div className="flex flex-col gap-8">
-        <h2 className="text-lg md:text-xl text-center text-white mt-4">
+        <h2 className="text-md md:text-md text-center text-white mt-4">
           Computer Systems Engineer
         </h2>
-        <h2 className="text-lg md:text-xl text-center text-white pb-8">
+        <h2 className="text-md md:text-md text-center text-white pb-8">
           Phone: +1 619-638-9269
         </h2>
       </div>
       <IconSelectable text="isc.cruzibarra@gmail.com" />
-      <div className="h-8 flex mt-4">
+      <div className="h-8 flex mt-4 gap-4 justify-center items-center">
         <img
           src={GihubIcon}
-          className="cursor-pointer mr-2"
+          className="cursor-pointer h-8 w-8"
           alt="GitHub"
           onClick={() => handleIconClick("https://www.github.com/cmir22")}
         />
         <img
           src={LinkedInIcon}
-          className="cursor-pointer"
+          className="cursor-pointer h-8 w-8"
           alt="LinkedIn"
           onClick={() =>
             handleIconClick("https://www.linkedin.com/in/cruz-ibarra/")
