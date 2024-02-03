@@ -1,4 +1,6 @@
-@import "/src/assets/Styles/colors";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 * {
   padding: 0;
@@ -8,5 +10,5 @@
 }
 
 body {
-  background-color: $primary_gray;
+  background-color: black;
 }

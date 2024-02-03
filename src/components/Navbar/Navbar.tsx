@@ -1,18 +1,24 @@
-import "./Navbar.scss";
-// import BurgerIcon from "../../assets/Icons/burger.svg";
+// import "./Navbar.scss";
+import BurgerIcon from "../../assets/Icons/burger.svg";
+
+type ClickMenuItemProps = {
+  title: string;
+};
 
 const NavBar = () => {
   return (
+    <nav className="h-12 bg-black">
+      <div className="flex justify-end items-center">
+        <ClickMenuItem title={"Skills"} />
+      </div>
+    </nav>
+  );
+};
+
+const ClickMenuItem = ({ title }: ClickMenuItemProps) => {
+  return (
     <>
-      <nav>
-        <div className="navbarContainer">
-          <div className="iconContainer">
-            {/* <div className="burgerIconContainer">
-              <img src={BurgerIcon} />
-            </div> */}
-          </div>
-        </div>
-      </nav>
+      <p className="text-white">{title}</p>
     </>
   );
 };
