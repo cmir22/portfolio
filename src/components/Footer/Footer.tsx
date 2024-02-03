@@ -1,11 +1,5 @@
-import "./Footer.scss";
-
 const Footer = () => {
-  return (
-    <>
-      <div className="footerContainer"></div>
-    </>
-  );
+  return <footer className="h-6 bg-white"></footer>;
 };
 
 export default Footer;
