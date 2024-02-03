@@ -1,4 +1,4 @@
-import "./App.scss";
+// import "./App.scss";
 import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home";
 import AboutMe from "./pages/AboutMe/AboutMe";
@@ -9,11 +9,11 @@ import Skills from "./pages/Skills/Skills";
 const App = () => {
   return (
     <>
-      <div className="sections">
-        <div className="sections__left">
+      <div className="h-full w-full flex flex-col lg:flex-row lg:overflow-auto">
+        <div className="lg:1/2 w-full h-screen flex flex-col justify-center items-center">
           <InformationCard />
         </div>
-        <div className="sections__right">
+        <div className="lg:1/2 w-full overflow-auto">
           <Home />
           <Skills />
           <AboutMe />
